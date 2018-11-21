@@ -60,3 +60,6 @@ In the literature, there are several improvements suggested for Deep Q-Learning 
 
 ### 7. Conclusion
 I was able to successfully train agents using Deep Q-Learning. The first agent that was trained based on a commulative reward of 13 had issues where it often got stuck in an infinite loop, and would then obtain a very small commulative reward. This was mostly solved by training longer, and having an agent based on a commulative rewaard of 17, but that issue of infinite loop was still seen occasionally (althought it was very rare). To hopefully be able to completely solve this infinite loop issue, it was proposed that a prioritized experience replay should be used in the learning process.
+
+### 8. References
+Please note that the code used originates from the Deep Q-Networks code that was provided in the Udacity Deep Reinforcement Learning class, and then modifcations were done to make it applicable for the specific environment that was solved. Similarly, some of the content of the README file originates from the Udacity Deep Reinforcement Learning class.

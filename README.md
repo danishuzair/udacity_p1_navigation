@@ -58,3 +58,6 @@ As part of the github project, a few checkpoints have been provided that can be 
 - "checkpoint.pth" and "checkpoint13score.pth" are essentially the same. In both cases, the checkpoints were saved as soon as an average score of greater than 13 was obtained over 100 consecutive episodes, and the training was stopped.
 - "checkpoint17score.pth" is a checkpoint when an average score of greater than 17 was obtained over 100 consecutive episodes.
 - "checkpoint2000iterations.pth" is a checkpoint when the training was allowed to continue for a complete 2000 iterations, and there was no early-stopping based on a certain score criteria being met.
+
+### 9. References
+Please note that the code used originates from the Deep Q-Networks code that was provided in the Udacity Deep Reinforcement Learning class, and then modifcations were done to make it applicable for the specific environment that was solved. Similarly, some of the content of the README file originates from the Udacity Deep Reinforcement Learning class.
