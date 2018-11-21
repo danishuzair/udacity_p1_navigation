@@ -36,4 +36,13 @@ Apart from this, the hyperparameters that were used were as follows:
 
 ### 4. Results
 A few different training sessions were run to train the agent. Initially, the goal was to stop training and consider the environment "solved" once the agent got an average reward of 13 over 100 consecutive episodes. Using the hyperparameters listed in the previous section, the agent was able to solve the environment in 405 episodes. The table below provides the results of this learning.
+
 ![Results](Output.png)
+
+### 5. Discussion of results
+
+[![Agent Trained to 13 Reward 24](http://img.youtube.com/vi/4zfdBiBru1g/0.jpg)](http://www.youtube.com/watch?v=4zfdBiBru1g "Agent Trained to 13 Reward 24")
+
+[![Agent Trained to 13 Reward 3](http://img.youtube.com/vi/j3IzMuK55vA/0.jpg)](http://www.youtube.com/watch?v=j3IzMuK55vA "Agent Trained to 13 Reward 3")
+
+[![Agent Trained to 17 Reward 17](http://img.youtube.com/vi/nIWSfrsXf_w/0.jpg)](http://www.youtube.com/watch?v=nIWSfrsXf_w "Agent Trained to 17 Reward 17")
