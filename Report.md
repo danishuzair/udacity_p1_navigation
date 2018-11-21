@@ -40,15 +40,15 @@ A few different training sessions were run to train the agent. Initially, the go
 ![Results](Output.png)
 
 ### 5. Discussion of results
-The linked video below shows a trained agent running in the environment. This agent was trained to an average score of 13. As can be seen in the video, this agent does an amazing job. Although this is not shown in the video, the agent accumulates a reward of 24 in the episode which is excellent.
+The linked video below shows a trained agent running in the environment. This agent was trained to an average score of 13. As can be seen in the video, this agent does an amazing job. Although this is not shown in the video, the agent accumulates a reward of 24 in the episode which is excellent.<br/><br/>
 [![Agent Trained to 13 Reward 24](http://img.youtube.com/vi/4zfdBiBru1g/0.jpg)](http://www.youtube.com/watch?v=4zfdBiBru1g "Agent Trained to 13 Reward 24")
 
-In the next linked video below, I have the same agent as previously, but the agent does not do a very good job. In fact, the agent collects some reward at the beginning, but then gets stuck in a state where it continuously keeps on taking a "move left" action followed by a "move right" action, and gets stuck in an infinite loop. The agent only accumulates a reward of 3 in this episode.
+In the next linked video below, I have the same agent as previously, but the agent does not do a very good job. In fact, the agent collects some reward at the beginning, but then gets stuck in a state where it continuously keeps on taking a "move left" action followed by a "move right" action, and gets stuck in an infinite loop. The agent only accumulates a reward of 3 in this episode.<br/><br/>
 [![Agent Trained to 13 Reward 3](http://img.youtube.com/vi/j3IzMuK55vA/0.jpg)](http://www.youtube.com/watch?v=j3IzMuK55vA "Agent Trained to 13 Reward 3")
 
 For the agent represented in the two videos above, I actually saw a phenomena where the agent very easily got stuck in an infinite loop similar to the one represented in the second video, and would accumulate a very small reward.
 
-To try to find a solution for this, I decided to let the agent train longer, and the checkpoint was saved only if the agent accumulated a reward of 17 over 100 consecutive episodes. This agent was trained in about 1700 episodes (using the same hyperparameters as above), and one run of this agent is shown in the video below. In the episode shown below, the agent accumulates a reward of 17.
+To try to find a solution for this, I decided to let the agent train longer, and the checkpoint was saved only if the agent accumulated a reward of 17 over 100 consecutive episodes. This agent was trained in about 1700 episodes (using the same hyperparameters as above), and one run of this agent is shown in the video below. In the episode shown below, the agent accumulates a reward of 17.<br/><br/>
 [![Agent Trained to 17 Reward 17](http://img.youtube.com/vi/nIWSfrsXf_w/0.jpg)](http://www.youtube.com/watch?v=nIWSfrsXf_w "Agent Trained to 17 Reward 17")
 
 For this second trained agent, it was actually noticable that the agent did a much better job in taking actions, and very rarely got stuck in infinite loops (although this was still observed a couple of times). By and large this longer training stabilized the agent, and a solution is proposed in the next section for the rate occasions in which the agent still got stuck in an infinite loop.
